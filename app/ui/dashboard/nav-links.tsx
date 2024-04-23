@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import {
   UserGroupIcon,
@@ -22,7 +22,6 @@ const links = [
 ];
 
 export default function NavLinks() {
-
   const pathname = usePathname();
 
   return (
